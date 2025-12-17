@@ -2,15 +2,15 @@
 
 ## 1. Title & Objective
 
-**What technology did you choose?**  
+**Technology I used:**  
 Go (Golang) HTTP programming
 
-**Why did you choose it?**
+**Why I chose it:**  
 Go is a modern, statically-typed programming language designed for simplicity and efficiency. I chose Go HTTP programming because it provides built-in libraries for creating web servers with minimal boilerplate code, making it perfect for beginners who want to understand backend development fundamentals.
 
 Additionally, Go powers many essential DevOps tools including:
 - Docker (containerization)
-- Kubernetes (container orchestration)
+- Kubernetes (container orchestration) 
 - Terraform (infrastructure as code)
 - Prometheus (monitoring)
 - Jenkins-X (CI/CD)
@@ -20,8 +20,8 @@ Additionally, Go powers many essential DevOps tools including:
 
 This makes Go skills highly valuable in DevOps and cloud-native development roles.
 
-**What's my  end goal?**  
-Create a simple HTTP web server that responds to HTTP requests and demonstrates core Go programming concepts including packages, functions, and the net/http library.
+**My end goal:**  
+Create a simple HTTP web server that responds to HTTP requests and demonstrate core Go programming concepts including packages, functions, and the net/http library.
 
 ## 2. Quick Summary of the Technology
 
@@ -159,7 +159,7 @@ func main() {
 }
 ```
 
-**Key Concepts Explained:**
+**Key Concepts I learned:**
 
 1. **package main**: Defines this as an executable program
 2. **import**: Imports necessary libraries
@@ -185,20 +185,20 @@ http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 ```
 
 **My evaluation of its helpfulness:**  
-Very helpful - provided exactly what was needed with clear, idiomatic Go code. The response included proper imports and the fundamental pattern for creating HTTP handlers.
+Very helpful - provided exactly what I needed with clear, idiomatic Go code. The response included proper imports and the fundamental pattern for creating HTTP handlers.
 
 ### Prompt 2: Understanding Go HTTP Concepts
-**Prompt used:**  
+**Prompt I used:**  
 "Explain how the net/http package works in Go and what http.HandleFunc does"
 
 **AI's response summary:**  
 The AI explained the HTTP handler pattern, how the ResponseWriter and Request interfaces work, and the role of the default router.
 
 **My evaluation of its helpfulness:**  
-Very helpful - clarified the HTTP programming model in Go and helped understand the relationship between handlers, requests, and responses.
+Very helpful - clarified the HTTP programming model in Go and helped me understand the relationship between handlers, requests, and responses.
 
 ### Prompt 3: Go Project Structure
-**Prompt used:**  
+**Prompt I used:**  
 "How should I organize a Go project and what's the difference between go run and go build?"
 
 **AI's response summary:**  
